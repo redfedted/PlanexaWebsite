@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Rethink Sans", sans-serif;
+  background-color: #fff1e1;
+}
+
+.parallax {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  color: #fff1e1;
+}
+
+.parallax .scroller {
+ 
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax span {
+  display: block;
+  margin-right: 30px;
+}
+
+.text-scroller span {
+  display: inline-block;
+}
+.slick-dots li button:before {
+  color: white;
+}
+.slick-dots li.slick-active button:before {
+  color:white !important;
+}
