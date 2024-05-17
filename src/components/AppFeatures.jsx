@@ -8,6 +8,7 @@ function AppFeatures() {
     { feature: "Subscription", basic: "yes", premium: "*" },
     {
       feature: "Transaction Fees",
+
       basic: "0.30$+4.99%",
       premium: "*",
     },
