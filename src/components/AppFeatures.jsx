@@ -5,7 +5,7 @@ import no from "../svgs/no.svg";
 
 function AppFeatures() {
   const arr = [
-    { feature: "Subscription", basic: "yes", premium: "$49/mo" },
+    { feature: "Subscription", basic: "yes", premium: "$49/mo*" },
     {
       feature: "Transaction Fees",
       basic: "0.5$+4.99% (games)",
