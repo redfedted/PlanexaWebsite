@@ -5,33 +5,33 @@ import no from "../svgs/no.svg";
 
 function AppFeatures() {
   const arr = [
-    { feature: "Subscription", basic: "yes", premium: "$49/mo" },
+    { feature: "Subscription", basic: "yes", premium: "*" },
     {
       feature: "Transaction Fees",
       basic: "0.30$+4.99%",
-      premium: "0.30$+4.99%",
+      premium: "*",
     },
-    { feature: "Chat", basic: "yes", premium: "yes" },
-    { feature: "Organize event", basic: "yes", premium: "yes" },
-    { feature: "Create group/account", basic: "2", premium: "Unlimited" },
-    { feature: "Admin group/event", basic: "2", premium: "10" },
-    { feature: "Host & organize", basic: "yes", premium: "yes" },
-    { feature: "Share events (URL)", basic: "yes", premium: "yes" },
-    { feature: "QR code confirmation", basic: "yes", premium: "yes" },
-    { feature: "Organize group/team", basic: "yes", premium: "yes" },
-    { feature: "Host free events", basic: "yes", premium: "yes" },
-    { feature: "Monthly statements", basic: "yes", premium: "yes" },
-    { feature: "Request to join groups & chat", basic: "yes", premium: "yes" },
-    { feature: "Attendance log for events", basic: "yes", premium: "yes" },
-    { feature: "Scan for attendance (admin)", basic: "yes", premium: "yes" },
-    { feature: "Spot attendance (admin)", basic: "yes", premium: "yes" },
-    { feature: "Fast payout", basic: "no", premium: "0.99$" },
-    { feature: "Discount Coupons", basic: "no", premium: "yes" },
-    { feature: "Participant waitlist", basic: "no", premium: "yes" },
-    { feature: "Sponsor Promotion", basic: "no", premium: "yes" },
-    { feature: "Pop up Notification", basic: "yes", premium: "yes" },
-    { feature: "Promote classes/events", basic: "yes", premium: "yes" },
-    { feature: "24x7 Support", basic: "yes", premium: "yes" },
+    { feature: "Chat", basic: "yes", premium: "*" },
+    { feature: "Organize event", basic: "yes", premium: "*" },
+    { feature: "Create group/account", basic: "2", premium: "*" },
+    { feature: "Admin group/event", basic: "2", premium: "*" },
+    { feature: "Host & organize", basic: "yes", premium: "*" },
+    { feature: "Share events (URL)", basic: "yes", premium: "*" },
+    { feature: "QR code confirmation", basic: "yes", premium: "*" },
+    { feature: "Organize group/team", basic: "yes", premium: "*" },
+    { feature: "Host free events", basic: "yes", premium: "*" },
+    { feature: "Monthly statements", basic: "yes", premium: "*" },
+    { feature: "Request to join groups & chat", basic: "yes", premium: "*" },
+    { feature: "Attendance log for events", basic: "yes", premium: "*" },
+    { feature: "Scan for attendance (admin)", basic: "yes", premium: "*" },
+    { feature: "Spot attendance (admin)", basic: "yes", premium: "*" },
+    { feature: "Fast payout", basic: "no", premium: "*" },
+    { feature: "Discount Coupons", basic: "no", premium: "*" },
+    { feature: "Participant waitlist", basic: "no", premium: "*" },
+    { feature: "Sponsor Promotion", basic: "no", premium: "*" },
+    { feature: "Pop up Notification", basic: "yes", premium: "*" },
+    { feature: "Promote classes/events", basic: "yes", premium: "*" },
+    { feature: "24x7 Support", basic: "yes", premium: "*" },
   ];
   // const arr = [
   //   "Subscription/Month",
@@ -69,7 +69,7 @@ function AppFeatures() {
           <div className="grid grid-cols-2">
             {" "}
             <h1 className=" text-start">BASIC</h1>
-            <h1 className="text-start">PREMIUM*</h1>
+            <h1 className="text-start">PREMIUM</h1>
           </div>
         </div>{" "}
         {arr.map((e, index) => {
@@ -108,8 +108,10 @@ function AppFeatures() {
             </div>
           );
         })}
-   
-      </div ><h1 className="mx-auto w-[85%] lg:w-[90%] text-end text-[#B0B0B0] lg:text-[2.01rem]   text-[0.8rem]">*premium features are coming soon </h1>
+      </div>
+      <h1 className="mx-auto w-[85%] lg:w-[90%] text-end text-[#B0B0B0] lg:text-[2.01rem]   text-[0.8rem]">
+        *premium features are coming soon{" "}
+      </h1>
     </div>
   );
 }
