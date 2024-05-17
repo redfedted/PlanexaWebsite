@@ -8,7 +8,7 @@ function AppFeatures() {
     { feature: "Subscription", basic: "yes", premium: "$49/mo" },
     {
       feature: "Transaction Fees",
-      basic: "0.30$+4.99%",
+      basic: "0.5$+4.99% (games)",
       premium: "0.30$+4.99%",
     },
     { feature: "Chat", basic: "yes", premium: "yes" },
