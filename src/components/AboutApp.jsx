@@ -80,7 +80,7 @@ function AboutApp() {
             <div className="flex flex-col gap-2">
               <div className="flex gap-6">
                 <img src={img1} alt="" />
-                <div className="text-[2.266rem] w-7/12 font-semibold   leading-[2.95rem] lg:w-5/12">
+                <div className="text-[2.266rem] w-7/12 font-semibold   leading-[2.95rem] lg:w-8/12">
                   Download and Sign Up
                 </div>
               </div>
@@ -108,7 +108,7 @@ function AboutApp() {
             <div className="flex flex-col gap-2">
               <div className="flex ">
                 <img src={img3} alt="" />
-                <div className="text-[2.266rem]  font-semibold  leading-[2.95rem] lg:w-7/12">
+                <div className="text-[2.266rem]  font-semibold  leading-[2.95rem] lg:w-8/12">
                   Organize, Payout and Connect.
                 </div>
               </div>
