@@ -5,15 +5,15 @@ import no from "../svgs/no.svg";
 
 function AppFeatures() {
   const arr = [
-    { feature: "Subscription", basic: "yes", premium: "$49/mo*" },
+    { feature: "Subscription", basic: "yes", premium: "*" },
     {
       feature: "Transaction Fees",
       basic: "0.5$+4.99% (games)",
-      premium: "0.30$+4.99%*",
+      premium: "*",
     },
     { feature: "Chat", basic: "yes", premium: "yes" },
     { feature: "Organize event", basic: "yes", premium: "yes" },
-    { feature: "Create group/account", basic: "2", premium: "Unlimited*" },
+    { feature: "Create group/account", basic: "2", premium: "*" },
     { feature: "Admin group/event", basic: "2", premium: "10*" },
     { feature: "Host & organize", basic: "yes", premium: "yes" },
     { feature: "Share events (URL)", basic: "yes", premium: "yes" },
@@ -25,7 +25,7 @@ function AppFeatures() {
     { feature: "Attendance log for events", basic: "yes", premium: "yes" },
     { feature: "Scan for attendance (admin)", basic: "yes", premium: "yes" },
     { feature: "Spot attendance (admin)", basic: "yes", premium: "yes" },
-    { feature: "Fast payout", basic: "no", premium: "0.99$*" },
+    { feature: "Fast payout", basic: "no", premium: "*" },
     { feature: "Discount Coupons", basic: "no", premium: "yes" },
     { feature: "Participant waitlist", basic: "no", premium: "yes" },
     { feature: "Sponsor Promotion", basic: "no", premium: "yes" },
