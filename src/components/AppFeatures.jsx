@@ -25,7 +25,7 @@ function AppFeatures() {
     { feature: "Attendance log for events", basic: "yes", premium: "yes" },
     { feature: "Scan for attendance (admin)", basic: "yes", premium: "yes" },
     { feature: "Spot attendance (admin)", basic: "yes", premium: "yes" },
-    { feature: "Fast payout", basic: "no", premium: "*" },
+    { feature: "Fast payout", basic: "no", premium: "10*" },
     { feature: "Discount Coupons", basic: "no", premium: "yes" },
     { feature: "Participant waitlist", basic: "no", premium: "yes" },
     { feature: "Sponsor Promotion", basic: "no", premium: "yes" },
