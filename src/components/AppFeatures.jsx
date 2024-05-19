@@ -15,7 +15,6 @@ function AppFeatures() {
     { feature: "Organize event", basic: "yes", premium: "yes" },
     { feature: "Create group/account", basic: "2", premium: "*" },
     { feature: "Admin group/event", basic: "2", premium: "*" },
-
   ];
   // const arr = [
   //   "Subscription/Month",
