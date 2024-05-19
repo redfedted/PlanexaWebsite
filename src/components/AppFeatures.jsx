@@ -32,7 +32,7 @@ function AppFeatures() {
     { feature: "Sponsor Promotion", basic: "no", premium: "*" },
     { feature: "Pop up Notification", basic: "yes", premium: "*" },
     { feature: "Promote classes/events", basic: "yes", premium: "*" },
-    { feature: "24x7 Support", basic: "yes", premium: "*" },
+    { feature: "24x7 Support", basic: "yes", premium: "*" }
   ];
   // const arr = [
   //   "Subscription/Month",
