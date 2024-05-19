@@ -14,7 +14,7 @@ function AppFeatures() {
     { feature: "Chat", basic: "yes", premium: "yes" },
     { feature: "Organize event", basic: "yes", premium: "yes" },
     { feature: "Create group/account", basic: "2", premium: "*" },
-    { feature: "Admin group/event", basic: "2", premium: "10*" },
+    { feature: "Admin group/event", basic: "2", premium: "*" },
     { feature: "Host & organize", basic: "yes", premium: "yes" },
     { feature: "Share events (URL)", basic: "yes", premium: "yes" },
     { feature: "QR code confirmation", basic: "yes", premium: "yes" },
