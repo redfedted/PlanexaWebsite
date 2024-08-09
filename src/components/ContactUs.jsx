@@ -35,7 +35,7 @@ function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_0wcs8mq", "template_sx7t0pt", form.current, {
+      .sendForm("service_zohautr", "template_g0vxnkh", form.current, {
         publicKey: "Wcw7D5OR_vI0PwLoP",
       })
       .then(
