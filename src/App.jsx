@@ -1,33 +1,18 @@
-import About from "./components/About.jsx";
-import AboutApp from "./components/AboutApp.jsx";
-import AppFeatures from "./components/AppFeatures.jsx";
-import CentreImage from "./components/CentreImage.jsx";
-import CentreImage2 from "./components/CentreImage2.jsx";
-import ComInfo from "./components/ComInfo.jsx";
-import ContactUs from "./components/ContactUs.jsx";
-import Footer from "./components/Footer.jsx";
-import FooterSlider from "./components/FooterSlider.jsx";
-import ImageCarousel from "./components/ImageCarousel.jsx";
-import Navbar from "./components/Navbar.jsx";
-import Values from "./components/Values.jsx";
+import { Routes, Route, Router, BrowserRouter } from "react-router-dom";
+import InstallApp from "./pages/InstallApp.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <ImageCarousel />
-      <ComInfo />
-      <CentreImage />
-      <About />
-      <CentreImage2 />
-      <AboutApp />
-      <AppFeatures />
-      <Values />
-      <ContactUs />
-      <FooterSlider />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home> </Home>} />
+        <Route path="/club/*" element={<InstallApp />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
+
 
 export default App;

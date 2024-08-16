@@ -1,9 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "ca.planexa",
-    "sha256_cert_fingerprints":
-    ["FF:2A:CF:7B:DD:CC:F1:03:3E:E8:B2:27:7C:A2:E3:3C:DE:13:DB:AC:8E:EB:3A:B9:72:A1:0E:26:8A:F5:EC:AF"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ca.planexa",
+      "sha256_cert_fingerprints": [
+        "FF:2A:CF:7B:DD:CC:F1:03:3E:E8:B2:27:7C:A2:E3:3C:DE:13:DB:AC:8E:EB:3A:B9:72:A1:0E:26:8A:F5:EC:AF",
+        "B1:A2:55:BF:FC:6B:BD:CA:0A:93:23:F4:EB:D9:35:44:F1:37:22:19:CA:B1:74:49:02:2C:17:67:F5:1E:CA:A9"
+      ]
+    }
   }
-}]
+]
