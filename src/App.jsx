@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home> </Home>} />
-        <Route path="/club/*" element={<InstallApp />} />
+        <Route path="/downloads/*" element={<InstallApp />} />
       </Routes>
     </BrowserRouter>
   );
