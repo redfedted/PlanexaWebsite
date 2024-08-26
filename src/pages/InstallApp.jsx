@@ -13,19 +13,22 @@ export default function InstallApp() {
         </h1>
         <div className="flex 2xl:gap-[1rem] gap-[0.563rem]  ">
           {" "}
-          <a href="" target="_blank">
+          <a
+            href="https://play.google.com/apps/internaltest/4701600933616482412"
+            target="_blank"
+          >
             {" "}
             <button>
               <img className="lg:w-[200px]" src={img7} alt="" />
             </button>
           </a>
-          <a href="" target="_blank">
+          {/* <a href="" target="_blank">
             {" "}
             <button>
               {" "}
               <img className="lg:w-[200px]" src={img8} alt="" />
             </button>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
