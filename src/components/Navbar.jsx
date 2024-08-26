@@ -3,12 +3,22 @@ import svg1 from "../svgs/Facebook.svg";
 import svg2 from "../svgs/Twitter.svg";
 import svg3 from "../svgs/Instagram.svg";
 import svg4 from "../svgs/Linkedin.svg";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
+
   return (
     <div className="flex  items-center justify-center lg:justify-between  h-[3.92rem] p-[1.26rem] 2xl:p-10">
       {" "}
-      <img className="h-[35px] 2xl:h-[50px]" src={svg} alt="" />{" "}
+      <img
+        onClick={() => {
+          navigate("/");
+        }}
+        className="h-[35px] 2xl:h-[50px]"
+        src={svg}
+        alt=""
+      />{" "}
       <div className=" gap-[1.389rem] hidden lg:flex">
         {" "}
         <div className="  gap-[1.389rem] hidden lg:flex">

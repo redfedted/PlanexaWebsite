@@ -17,6 +17,7 @@ import img5 from "../images/Image3.webp";
 
 import img7 from "../svgs/googleplay.svg";
 import img8 from "../svgs/applestore.svg";
+import { useNavigate } from "react-router-dom";
 
 function ImageCarousel() {
   const settings = {
@@ -29,6 +30,8 @@ function ImageCarousel() {
     autoplaySpeed: 2000,
     arrows: false,
   };
+
+  const navigate = useNavigate();
 
   return (
     <div className="relative w-full ">
@@ -92,11 +95,18 @@ function ImageCarousel() {
         {" "}
         <div className="flex 2xl:gap-[1rem] gap-[0.563rem] ">
           {" "}
-          <button>
+          <button
+            onClick={() => {
+              navigate("/downloads");
+            }}
+          >
             <img className="lg:w-[200px]" src={img7} alt="" />
           </button>
-          <button>
-            {" "}
+          <button
+            onClick={() => {
+              navigate("/downloads");
+            }}
+          >
             <img className="lg:w-[200px]" src={img8} alt="" />
           </button>
         </div>
