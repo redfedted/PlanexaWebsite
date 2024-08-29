@@ -7,15 +7,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home> </Home>} />
-<<<<<<< HEAD
-        <Route path="/downloads/*" element={<InstallApp />} />
-        <Route path="/deleteprofile/*" element={<Delete />} />
-=======
+        <Route path="/" element={<Home />} />
         <Route path="/club/*" element={<InstallApp />} />
         <Route path="/event/*" element={<InstallApp />} />
-
->>>>>>> 4c525c167f97e951a86ec9a6723c242b3da398dc
+        <Route path="/deleteprofile/*" element={<Delete />} />
       </Routes>
     </BrowserRouter>
   );
