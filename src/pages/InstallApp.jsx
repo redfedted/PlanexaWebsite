@@ -14,7 +14,7 @@ export default function InstallApp() {
         <div className="flex 2xl:gap-[1rem] gap-[0.563rem]  ">
           {" "}
           <a
-            href="https://play.google.com/apps/internaltest/4701600933616482412"
+            href="https://play.google.com/store/apps/details?id=ca.planexa"
             target="_blank"
           >
             {" "}
