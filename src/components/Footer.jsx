@@ -31,7 +31,7 @@ function Footer() {
             <img src={svg4} alt="" />
           </a>
         </div>{" "}
-        <div className="text-[#252122] text-[1.42rem] font-semibold flex flex-col items-center lg:text-[2rem] lg:self-start lg:items-start lg:pl-[4.688rem]">
+        <div className="text-[#252122] text-[1.42rem] font-semibold flex flex-col items-center  lg:self-start lg:items-start lg:pl-[4.688rem] lg:text-[2rem]">
           {" "}
           <h1>Contact us:</h1>
           <a
@@ -41,6 +41,12 @@ function Footer() {
           >
             info@planexa.ca
           </a>{" "}
+          <a
+            href="/deleteprofile"
+            className="text-[1rem] lg:text-[1.1rem]   pt-4 underline"
+          >
+            Delete profile
+          </a>
         </div>
       </div>
     </div>
