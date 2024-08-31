@@ -18,6 +18,8 @@ function Delete() {
         ) : (
           <div className="py-32 lg:py-32">
             <form
+              action="https:api.planexa.ca/account-deletion"
+              method="POST"
               onSubmit={() => {
                 SetSubmit(true);
               }}
@@ -28,8 +30,8 @@ function Delete() {
               </h1>
               <input
                 type="email"
-                name=""
-                id=""
+                name="email"
+                id="email"
                 placeholder="Email"
                 className="mb-2 w-full rounded-lg bg-[#F1F5F9] px-4 lg:px-6 py-2 text-xs  lg:text-lg lg:mb-4 focus:text-black text-[#879FAF] "
               />
