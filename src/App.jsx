@@ -10,6 +10,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/club/*" element={<InstallApp />} />
         <Route path="/event/*" element={<InstallApp />} />
+                <Route path="/downloads/*" element={<InstallApp />} />
+
         <Route path="/deleteprofile/*" element={<Delete />} />
       </Routes>
     </BrowserRouter>
