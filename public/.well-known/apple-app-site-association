@@ -1,0 +1,26 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "5SQYN345QX.ca.planexa"
+                ],
+                "paths": [
+                    "/event/.*",
+                    "/club/.*/info"
+                ],
+                "components": [
+                    {
+                        "/": "/*"
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "5SQYN345QX.ca.planexa"
+        ]
+    }
+}
