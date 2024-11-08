@@ -10,6 +10,7 @@ import ContactUs from "../components/ContactUs";
 import FooterSlider from "../components/FooterSlider";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import AppDetailsTemp from "../components/AppDetailsTemp";
 
 export default function Home() {
   return (
@@ -21,7 +22,8 @@ export default function Home() {
       <About />
       <CentreImage2 />
       <AboutApp />
-      <AppFeatures />
+      <AppDetailsTemp />
+      {/* <AppFeatures /> */}
       <Values />
       <ContactUs />
       <FooterSlider />

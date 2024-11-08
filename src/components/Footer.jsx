@@ -41,12 +41,13 @@ function Footer() {
           >
             info@planexa.ca
           </a>{" "}
-          <a
+          {/*<a
             href="/deleteprofile"
             className="text-[1rem] lg:text-[1.1rem]   pt-4 underline"
           >
             Delete profile
           </a>
+          */}
         </div>
       </div>
     </div>
