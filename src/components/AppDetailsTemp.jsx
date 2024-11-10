@@ -2,14 +2,14 @@ import img from "/src/images/Image10.webp";
 
 function AppDetailsTemp() {
     const arr = [
-        { feature: "Transaction Fees", basic: "$0.30+4.99%" },
+        { feature: "Transaction Fee", basic: "$0.30+4.99%" },
         { feature: "Withdraw Fee (Host)", basic: "0.25% + C$0.25" },
     ];
 
     return (
-        <div className="bg-[url('/src/images/Image10.webp')] bg-center box-border text-white bg-cover lg:py-[6.313rem] py-[2.111rem]">
+        <div className="bg-[url('/src/images/fees_bg.jpg')] bg-center box-border text-white bg-cover lg:py-[3rem] py-[1rem]">
             <div className="mx-auto w-[85%] lg:w-[90%] text-center">
-                <h1 className="font-bold text-[2rem] lg:text-[4rem] mb-8 text-[#F49C25]">Fees</h1>
+                {/* <h1 className="font-bold text-[2rem] lg:text-[4rem] mb-8 text-[#F49C25]">FEES</h1> */}
                 {arr.map((e, index) => (
                     <div
                         key={index}
