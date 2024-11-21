@@ -97,14 +97,14 @@ function ImageCarousel() {
           {" "}
           <button
             onClick={() => {
-              navigate("/downloads");
+              window.location.href = "https://play.google.com/store/apps/details?id=ca.planexa";
             }}
           >
             <img className="lg:w-[200px]" src={img7} alt="" />
           </button>
           <button
             onClick={() => {
-              navigate("/downloads");
+              window.location.href = "https://apps.apple.com/us/app/planexa/id6736920900";
             }}
           >
             <img className="lg:w-[200px]" src={img8} alt="" />
