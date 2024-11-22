@@ -9,11 +9,6 @@
                 "paths": [
                     "/event/.*",
                     "/club/.*/info"
-                ],
-                "components": [
-                    {
-                        "/": "/*"
-                    }
                 ]
             }
         ]
