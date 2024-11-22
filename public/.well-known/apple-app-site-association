@@ -3,29 +3,12 @@
         "apps": [],
         "details": [
             {
-                "appIDs": [
-                    "5SQYN345QX.ca.planexa"
-                ],
+                "appID": "5SQYN345QX.ca.planexa",
                 "paths": [
-                    "/event/*",
-                    "/club/*/info"
-                ],
-                "components": [
-                    {
-                        "/": "/*"
-                    }
+                    "/club/*/info",
+                    "/event/*"
                 ]
             }
-        ]
-    },
-    "appclips": {
-        "apps": [
-            "5SQYN345QX.ca.planexa"
-        ]
-    },
-    "webcredentials": {
-        "apps": [
-            "5SQYN345QX.ca.planexa"
         ]
     }
 }
