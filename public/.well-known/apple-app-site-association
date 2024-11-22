@@ -7,8 +7,8 @@
                     "5SQYN345QX.ca.planexa"
                 ],
                 "paths": [
-                    "/event/.*",
-                    "/club/.*/info"
+                    "/event/*",
+                    "/club/*/info"
                 ]
             }
         ]
