@@ -104,7 +104,7 @@ function ImageCarousel() {
           </button>
           <button
             onClick={() => {
-              window.location.href = "https://apps.apple.com/us/app/planexa/id6736920900";
+              window.location.href = "https://apps.apple.com/ca/app/planexa/id6736920900";
             }}
           >
             <img className="lg:w-[200px]" src={img8} alt="" />

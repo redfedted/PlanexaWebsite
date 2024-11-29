@@ -17,7 +17,7 @@ export default function InstallApp() {
           <a href="https://play.google.com/store/apps/details?id=ca.planexa" target="_blank" rel="noopener noreferrer">
             <img src={img7} alt="Download from Google Play" className="w-32 h-auto" />
           </a>
-          <a href="https://apps.apple.com/us/app/planexa/id6736920900" target="_blank" rel="noopener noreferrer">
+          <a href="https://apps.apple.com/ca/app/planexa/id6736920900" target="_blank" rel="noopener noreferrer">
             <img src={img8} alt="Download from Apple Store" className="w-32 h-auto" />
           </a>
         </div>
