@@ -3,7 +3,7 @@ import img from "/src/images/Image10.webp";
 function AppDetailsTemp() {
     const arr = [
         { feature: "Transaction Fee", basic: "$0.30+4.99%" },
-        { feature: "Withdraw Fee (Host)", basic: "2%" },
+        { feature: "Withdraw Fee (Host)", basic: "2.00%" },
     ];
 
     return (
